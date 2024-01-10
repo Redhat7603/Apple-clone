@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+.top{
+    background: #000;
+}
+.navbar{
+    position:fixed;
+    height: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #2c2b2b;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1000;
+}
+.navbar i{
+    margin-top: 4.4px;
+}
+.navbar ul{
+    margin-top: 5px;
+    display: flex;
+    list-style: none;
+    font-size: 11px;
+}
+.navbar ul li{
+    margin-left: 40px;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+.icon-logo i{
+    margin-top: 7px;
+    margin-left: 40px;
+    font-size: 11px;
+}
+.icon-logo i:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+/* offer */
+.offer{
+    height: 30px;
+    background: #494646;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    top: 45px;
+}
+.offer a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.offer a:hover{
+    color: red;
+}
+
+/* mobile */
+.mobile{
+    margin-top: 90px;
+    /* font-family: 'Open Sans', sans-serif; */
+    color: white;
+    text-align: center;
+}
+.intro h1{
+   font-size: 60px;
+   font-weight: bolder;
+}
+.intro p{
+    font-size: 30px;
+}
+.buttons{
+    margin: 10px;
+}
+.buttons button{
+    padding: 0px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background-color:black;
+}
+.buttons button:hover{
+    font-size: 20px;
+    border-bottom: 1px solid blue;
+}
+
+.intro15{
+    text-align: center;
+    padding-top: 70px;
+    background: #f5f5f7;
+}
+.intro15 h1{
+    font-size: 60px;
+   font-weight: bolder;
+}
+.intro15 p{
+     font-size: 30px;
+}.buttons1{
+    margin: 10px;
+}
+.buttons1 button{
+    padding: 0px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background-color: #f5f5f7;
+}
+.buttons1 button:hover{
+    font-size: 20px;
+    border-bottom: 1px solid blue;
+}
+.intro15 img{
+    width: 100%;
+}
+
+/* video */
+.watch-vid video{
+    width: 100%;
+}
+
+/* aayen */
+
+.item{
+    width: 100%;
+    /* border: 3px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.watch{
+    padding-top: 20px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background: #fbfbfd;
+}
+.dono{
+    display: flex;
+    justify-content: center;
+}
+.dono i{
+    font-size: 32px;
+    margin-right: 7px;
+}
+.watch h4{
+    color: #fc891e;
+}
+.watch p{
+    padding-top: 7px;
+    font-weight: bolder;
+}
+.watch button{
+    padding: 5px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background: none;
+}
+.watch button:hover{
+    font-size: 20px;
+    text-decoration: underline;
+} 
+
+.macbookpro{
+    /* border: 2px solid rgb(177, 231, 126); */
+    text-align: center;
+    padding-top: 20px;
+    background: #fafafa;
+}
+.macbookpro h3{
+    padding-top: 7px;
+}
+.macbookpro img{
+    width: 700px;
+}
+.macbookpro button{
+    padding: 5px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background: none;
+}
+.macbookpro button:hover{
+    font-size: 20px;
+    text-decoration: underline;
+} 
+
+
+.ipad{
+    /* border: 2px solid rgb(12, 199, 28); */
+    padding-top: 20px;
+    background: #fbfbfb;
+}
+.tab{
+    text-align: center;
+}
+.tab h3{
+    padding-top: 7px;
+}
+.tab button{
+    padding: 5px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background: none;
+}
+.tab button:hover{
+    font-size: 20px;
+   text-decoration: underline;
+} 
+
+
+.airpods{
+    /* border: 2px solid rgb(228, 231, 40); */
+    padding-top: 20px;
+    background: #000;
+}
+.bods{
+    text-align: center;
+    color: white;
+}
+.bods h3{
+    padding-top: 7px;
+}
+.bods button{
+    padding: 5px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background: none;
+}
+.bods button:hover{
+    font-size: 20px;
+    text-decoration: underline;
+} 
+
+.home{
+    /* border: 2px solid rgb(167, 148, 148); */
+    padding-top: 20px;
+    background: #fbfbfb;
+}
+.speaker{
+    text-align: center;
+    padding-top: 20px;
+}
+.speaker button{
+    padding: 5px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background: none;
+}
+.speaker img{
+    width: 630px;
+}
+.speaker button:hover{
+    font-size: 20px;
+    text-decoration: underline;
+} 
+
+.Trand{
+    padding-top: 20px;
+    background: #fbfbfb;
+    /* border: 2px solid rgb(211, 43, 135); */
+}
+.cover{
+    text-align: center;
+    padding-top: 20px;
+}
+.cover button{
+    padding: 5px 5px;
+    height:auto;
+    margin-inline: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    color: blue;
+    background: none;
+}
+.cover img{
+    width: 700px;
+}
+.cover button:hover{
+    font-size: 20px;
+    text-decoration: underline;
+} 
+
+/* text */
+.text{
+    margin-top: 40px;
+    background: #f5f5f7;
+    padding:30px 170px 0px 170px;
+}
+.text1{
+    color: #494646;
+}
+
+.mix{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.mix h1{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.mix p{
+    font-size: 15px;
+    color: #494646;
+    margin-top: 1px;
+    margin-top: 6px;
+}
+
+.support{
+    margin-top: 10px;
+}
+
+hr{
+    margin-top: 30px;
+    height: 2px;
+    border-width:auto;
+    background: #616060;
+}
+
+.mix p:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+}
+.mix h1:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
